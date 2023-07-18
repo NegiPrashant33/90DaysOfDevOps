@@ -1,7 +1,7 @@
 # Table Of Contents
-1. [What is DevOps](#what-is-devops)
-2. [What is Automation, Scaling, Infrastructure](#what-is-automation-scaling-and-infrastructure)
-3. [Why DevOps is Important](#why-devops-is-important)
+1. [What is DevOps](#what-is-devops-♾️)
+2. [What is Automation, Scaling, Infrastructure](#what-is-automation-scaling-and-infrastructure-🤖🚀🛠️👩‍💻)
+3. [Why DevOps is Important](#why-devops-is-important-💯)
 
 
 
@@ -36,7 +36,6 @@ Scaling ensures that the system can handle peak loads without performance degrad
 Infrastructure in the context of DevOps and cloud computing refers to the underlying technology components required to support software applications. This includes servers, storage, networks, databases, and other resources necessary for running applications. 
 
 Infrastructure can be provisioned and managed using infrastructure-as-code (IaC) tools, which allow for the automated provisioning, configuration, and management of infrastructure resources. Infrastructure as Code enables organizations to version, replicate, and automate the deployment of infrastructure, promoting consistency, reproducibility, and scalability.
-
 
 
 
