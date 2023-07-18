@@ -1,7 +1,7 @@
 # Table Of Contents
-1. [What is DevOps](#what-is-devops-♾️)
-2. [What is Automation, Scaling, Infrastructure](#what-is-automation-scaling-and-infrastructure-🤖🚀🛠️👩‍💻)
-3. [Why DevOps is Important](#why-devops-is-important-💯)
+1. [What is DevOps](#https://github.com/NegiPrashant33/90DaysOfDevOps/blob/main/day01/answers.md#what-is-devops-%EF%B8%8F)
+2. [What is Automation, Scaling, Infrastructure](#https://github.com/NegiPrashant33/90DaysOfDevOps/blob/main/day01/answers.md#what-is-automation-scaling-and-infrastructure-%EF%B8%8F)
+3. [Why DevOps is Important](#https://github.com/NegiPrashant33/90DaysOfDevOps/blob/main/day01/answers.md#why-devops-is-important-)
 
 
 
