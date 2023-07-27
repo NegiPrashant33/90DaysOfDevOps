@@ -75,3 +75,7 @@ git push -u origin main
 
 
 > Note: If you come across an error such as `Fatal: Could not read from remote repository` then refer [this](https://youtu.be/uFaYgSVzy3w) youtube video and if you come across an error that says `SSH permission denied`, then refer [this](https://youtu.be/Irj-2tmV0JM) youtube video 
+
+
+
+> Note: While completing the task 8 I made a mistake of giving a wrong commit description as "Day 9 completed" instead of "Day 8 completed" (keep in mind I did not push the commit to the remote repository). This mistake can be resolved using `git commit --amend` command, which opens up an editor for you where you can change your commit message and save changes
