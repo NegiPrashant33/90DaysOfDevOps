@@ -1,4 +1,4 @@
-# Day 9 Task: Deep Dive in Git & GitHub for DevOps Engineers.
+# Day 9 Task: Deep Dive into Git & GitHub for DevOps Engineers.
 
 ## Find the answers by your understandings(Shouldn't be copied from the internet & use hand-made diagrams)  of below questions and Write blog on it.
 

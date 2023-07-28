@@ -1,4 +1,4 @@
-# Deep Dive in Git & GitHub for DevOps Engineers
+# Deep Dive into Git & GitHub for DevOps Engineers
 
 ## What is Git and why is it important ?
 
@@ -72,7 +72,7 @@ You can use the `git config --list` command to check if the user name and email 
 
 **Task 2:**
 
-- Create a new repository DevOps on GitHub, refer (Day 8 exercises)[https://github.com/NegiPrashant33/90DaysOfDevOps/blob/main/day08/answers.md] to understand how to create a new repository
+- Create a new repository DevOps on GitHub, refer [Day 8 exercises](https://github.com/NegiPrashant33/90DaysOfDevOps/blob/main/day08/answers.md) to understand how to create a new repository
 - To connect your local repository to the remote repository on github refer the above notes.
 - Create a new file DevOps/Git/Day-02.txt
     ```shell
