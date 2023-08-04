@@ -78,3 +78,22 @@ Conflicts can occur when you merge or rebase branches that have diverged, and yo
     ```
 
 ### Task 3
+
+- As specified in the task cherry pick the commit
+    ```shell
+    # In prod branch
+    git log --oneline
+
+    # Cherry pick the specified commit
+    git cherry-pick <commit hash>
+
+    # A merge conflict may occur
+    # Resolve the conflicts in the file and then add the file
+    git add Git/version01.txt
+
+    git cherry-pick --continue
+
+    # Add changes to the file specified in task
+    # Add file to the staging area and commit
+    git commit -m "Optimized the feature"
+    ```
