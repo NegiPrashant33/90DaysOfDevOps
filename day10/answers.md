@@ -121,7 +121,7 @@ Refer to this article for a better understanding of Git Rebase and Merge [Read h
     ```
 - `git rebase` is used when you want a clean and linear history of your commits
 
-    Here if we are on the dev branch and perform the below command then, the changes in the main branch will be integrated with the feature branch which will now have a linear commit history
+    Here if we are on the dev branch and perform the below command then, the changes in the main branch will be integrated with the feature branch which will now have a linear commit history. Git rebase rewrites the commit history.
 
     ```shell
     git rebase main
