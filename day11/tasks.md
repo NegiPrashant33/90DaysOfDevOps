@@ -23,7 +23,7 @@
 - Line4>> Feature 2 is completed and ready for release
 
   Commit this with message “ Feature2 completed”
-- All these commits messages should be reflected in Production branch too which will come out from Master branch (Hint: try rebase).
+- All these commits messages should be reflected in Production branch too which will come out from main branch (Hint: try rebase).
 
 ## Task-03
 - In Production branch Cherry pick Commit “Added feature2.2 in development branch” and added below lines in it:
