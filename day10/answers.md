@@ -119,3 +119,10 @@ Refer to this article for a better understanding of Git Rebase and Merge [Read h
     # After the merge is completed, push changes to remote repository
     git push -u origin main
     ```
+- `git rebase` is used when you want a clean and linear history of your commits
+
+    Here if we are on the dev branch and perform the below command then, the changes in the main branch will be integrated with the feature branch which will now have a linear commit history
+
+    ```shell
+    git rebase main
+    ```
