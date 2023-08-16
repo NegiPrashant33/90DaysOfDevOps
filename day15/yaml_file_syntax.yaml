@@ -1,0 +1,76 @@
+# This is a YAML file showcasing different YAML syntax elements
+
+# Scalars
+string_example: This is a string
+integer_example: 42
+
+# Multiline String
+multiline_string: |
+  This is a multiline
+  string example
+  spanning multiple lines
+
+# Lists
+simple_list:
+  - item1
+  - item2
+  - item3
+
+list_of_integers:
+  - 1
+  - 2
+  - 3
+
+list_of_strings_and_integers:
+  - string_item
+  - 123
+
+# List within List
+list_within_list:
+  - - nested_item1
+    - nested_item2
+  - - nested_item3
+    - nested_item4
+
+# Objects
+simple_object:
+  key1: value1
+  key2: value2
+
+nested_object:
+  parent_key:
+    child_key1: child_value1
+    child_key2: child_value2
+
+# List of Objects
+list_of_objects:
+  - name: John
+    age: 30
+  - name: Jane
+    age: 28
+
+# Comments
+# This is a single-line comment
+
+string_with_comment: example  # This is an end-of-line comment
+
+# Multi-line Comment
+# This is a multi-line
+# comment spanning
+# multiple lines
+
+# Complex Example
+complex_example:
+  - name: Alice
+    details:
+      age: 25
+      hobbies:
+        - reading
+        - hiking
+  - name: Bob
+    details:
+      age: 30
+      hobbies:
+        - coding
+        - gaming
+

@@ -1,0 +1,35 @@
+{
+    "Alice": {
+        "age": 20,
+        "courses": [
+            "Math",
+            "Physics"
+        ],
+        "grades": {
+            "Math": 95,
+            "Physics": 88
+        }
+    },
+    "Bob": {
+        "age": 21,
+        "courses": [
+            "Chemistry",
+            "Biology"
+        ],
+        "grades": {
+            "Chemistry": 78,
+            "Biology": 92
+        }
+    },
+    "Carol": {
+        "age": 19,
+        "courses": [
+            "History",
+            "English"
+        ],
+        "grades": {
+            "History": 85,
+            "English": 70
+        }
+    }
+}
