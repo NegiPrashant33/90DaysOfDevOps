@@ -67,6 +67,23 @@
 
 5. Why and when to use Docker ?
 
+    The `Why` aspect of using Docker can be understood by first understanding what Docker is
+
+    Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker you can build container images, run the images to create containers and also push these containers to container registries such as DockerHub.
+
+    In simple words, you can understand as **containerization is a concept or technology** and **Docker Implements Containerization**.
+
+    So the main purpose of docker is to provide an efficient way to package and deploy applications.
+
+
+    `When` to use docker 
+
+    - When you want to provide isolation to your application.
+    - When you want to run a microservices architecture.
+    - Where continuous integration and continuous deployment is required.
+    - When you want multi platform compatability for your application.
+    - When you want to scale application.
+
 6. Explain the Docker components and how they interact with each other.
 
     Docker components
@@ -109,13 +126,59 @@
 
 8. In what real scenario you have used Docker ?
 
+    I've used docker to containarize my three-tier application which used React in the frontend, Spring Boot as Backend with MySql as my database service.
+
 9. Docker vs Hypervisor
+
+    ![Docker vs Hypervisor](/day21/images/Hypervisor-vs-Docker-info.jpg.png)
+
+    Credits at the end of the image.
 
 10. What are the advantages and disadvantages of using docker ?
 
+    Advantages:
+
+    - Isolation and Consistency
+
+    - Efficient Resource Utilization
+
+    - Portability and Reproducibility
+        
+    - DevOps and CI/CD Integration
+        
+    - Microservices and Scalability
+            
+
+    Disadvantages:
+
+    - Learning Curve           
+
+    - Resource Constraints
+
+    - Security Concerns
+
+    - Complex Networking
+        
+    - Volume Management
+        
+
+    > Read [this](https://www.altexsoft.com/blog/docker-pros-and-cons/) to understand the pros and cons of using docker.
+
 11. What is a docker namespace ?
 
+    A Docker namespace is a mechanism used by the Docker to isolate and control various aspects of a container's environment. Namespaces provide process and resource isolation, ensuring that containers operate in isolated environments and don't interfere with each other or the host system. Docker leverages multiple namespaces to achieve this isolation.
+
+    Some of the common namespace used by Docker
+
+    - Proccess ID namespace
+    - Hostname namespace
+    - User namespace
+    - Mount namespace
+    - Network namespace
+
 12. What is a docker registry ?
+
+    A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default.
 
 
 13. What is ENTRYPOINT command used in Dockerfile ?
@@ -123,3 +186,59 @@
     **ENTRYPOINT**
     
     The `ENTRYPOINT` instruction is similar to `CMD`, but it provides more control and flexibility. It specifies the command that should be the entry point for the container. The difference is that the arguments passed to ENTRYPOINT are fixed, and any additional arguments provided when running the container will be treated as arguments to the ENTRYPOINT command. This allows you to create more dynamic and consistent behavior for containers.
+
+
+14. How to implement CI/CD in Docker ?
+
+    Implementing Continuous Integration and Continuous Deployment (CI/CD) in Docker involves automating the process of building, testing, and deploying Dockerized applications.
+
+    This can be done using Jenkins server. We can create a Dockerfile or Docker compose configuration file in our github repository, this repository can be used as a project in our Jenkins, to build, test and deploy our dockerized application.
+
+15. Will data on the container be lost when the docker container exits?
+
+    Yes, data on the container will no longer be accessible when the container is down, any new data created inside the container will also be lost if any volume is not associated with the container.
+
+16. What is a Docker swarm?
+
+    Docker Swarm is a container orchestration tool. Container orchestration refers to the process of managing and automating the deployment, scaling, and operation of multiple containers within a cluster or environment.
+
+17. What are the docker commands for the following:
+
+  - view running containers
+
+    `docker ps`
+
+  - command to run the container under a specific name
+
+    `docker run --name <container name> <image name>`
+
+  - command to export a docker container
+
+    `docker export <container id/name> > /path/file.tar`
+
+    `docker export -o /path/file.tar <container id/name>`
+    
+  - command to import an already existing docker image
+    
+    `docker import container-export.tar <image_name>:<tag>`
+
+  - commands to delete a container
+
+    `docker kill <container id/name>`
+
+    `docker rm <container id/name>`
+
+  - command to remove all stopped containers, unused networks, build 
+  caches, and dangling images
+    
+    `docker system prune -a`
+
+    `docker system prune -f`
+
+
+    > Note: The Docker save command saves a Docker image to a tar file and the Docker export command saves a Docker container to a tar file
+
+
+18, What are the common docker practices to reduce the size of Docker Image?
+
+    Refer answer 4.
