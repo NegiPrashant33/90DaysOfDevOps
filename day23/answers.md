@@ -91,3 +91,13 @@ Setting Up jenkins agent (Master-Slave architecture)
 
 
 ## Task 2
+
+Using the same github repository from the previous task and the same steps as well
+
+- In the build step modify the commands and use the following command instead of docker build and run
+
+    `docker-compose up -d`
+
+- In the post build actions set up the clean up command
+
+    `docker-compose down`
