@@ -202,3 +202,17 @@ With this we will only be able to access our application while we are running th
     A green tick specifies that the Webhook is working and as soon as you make any changes to your code base in github the jenkins pipeline will be triggered and build will take place automatically
     
     ![resource](/day24/images/Screenshot%20from%202023-08-28%2016-50-45.png)
+
+
+
+**Note**: You can futher modify the project by creating a docker compose file for your application or using the existing one, after creating the docker compose file you can containerize the whole application in just a single command
+
+Make the following changes to the build steps of your Jenkins job
+
+```shell
+
+docker-compose down
+
+docker-compose up -d
+
+```
